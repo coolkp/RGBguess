@@ -1,0 +1,137 @@
+h1
+{
+	text-align: center;
+	line-height: 0.8;
+	font-weight: normal;
+	color: white;
+	background: steelblue;
+	margin: 0;
+	text-transform: uppercase;
+	font-size: inherit;
+	
+}
+.blue #RGB
+{
+	font-size: 200%;
+}
+.visible
+{
+	visibility: hidden;
+}
+.blue
+{
+	background-color: steelblue;
+	display:block;
+	padding: 25px 0;
+	text-align: center;
+	color: white;
+	font-size: 2em;
+}
+body {
+	background-color: #232323;
+	margin: 0;
+	font-family: "Montserrat", "Avenir";
+}
+.firstbar
+{
+	background-color: white;
+	text-align: center;
+	display: block ;
+	height: 30px ;
+
+}
+button
+{
+	border: none;
+	text-transform: uppercase;
+	color: steelblue;
+	font-weight: 700;
+	height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+	
+	
+
+}
+#row1
+{
+	display:block;
+}
+#row2
+{
+
+	clear: left; 
+
+}
+.square 
+{
+	background-color: white;
+	height: 40px;
+	width: 40px;
+	margin-top: 10px;
+	float:left;
+	width:12em ;
+	height:12em;
+	margin-right: 2.5%;
+	margin-top: 2.5%;
+	border-radius: 25px;
+	transition: background-color 2s;
+}
+
+#sq1
+{
+	margin-left: 25%;
+	width:12em ;
+	margin-right: 2.5%;
+	height:12em;
+	background-color: magenta;
+
+}
+
+
+#sq2
+{
+	background-color: blue;
+}
+#sq3
+{
+	background-color: purple;
+}
+
+#sq4
+{
+	margin-left: 25%;
+	width:12em ;
+	margin-right: 2.5%;
+	height:12em;
+	background-color: green;
+}
+
+#sq5
+{
+	background-color: pink;
+}
+#sq6
+{
+	background-color: cyan;
+}
+.hoverclass {
+    background-color: steelblue; /* Green */
+    color: white;
+}
+#reset
+{
+	margin-right: 10%;
+	
+}
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s 1s, opacity 1s linear;
+}
+#right 
+{
+	margin-right: 10%;
+}
